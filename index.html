@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Search your favorite Food Recipe</title>
+        <link rel="stylesheet" href="./style.css" />
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+        />
+    </head>
+    <body>
+        <div class="container">
+            <div class="meal-wrapper">
+                <a href="#" class="logo"><img src="./logo.png" alt="" /></a>
+                <div class="meal-search">
+                    <h2 class="title">Find Meals for your ingredients</h2>
+                    <!-- <blockquote>
+                        Real food doesnt have ingredients, real food is
+                        ingredient.
+                        <cite> -Jamie Oliver</cite>
+                    </blockquote> -->
+
+                    <div class="meal-search-box">
+                        <input
+                            type="text"
+                            class="search-control"
+                            placeholder="Enter an ingredient"
+                            id="search-input"
+                        />
+                        <button
+                            type="submit"
+                            class="search-btn btn"
+                            id="search-btn"
+                        >
+                            <i class="fas fa-search"></i>
+                        </button>
+                    </div>
+                </div>
+                <div class="meal-result">
+                    <h2 class="title">Your Search results:</h2>
+                    <div id="meal">
+                        <!-- meal item -->
+                        <!-- <div class="meal-item">
+                                <div class="meal-img">
+                                    <img src="food.jpg" alt="food" />
+                                </div>
+                                <div class="meal-name">
+                                    <h3>Potato chips</h3>
+                                    <a href="#" class="recipe-btn">Get Recipe</a>
+                                </div>
+                            </div> -->
+                        <!-- meal item end -->
+                    </div>
+                </div>
+
+                <div class="meal-details">
+                    <!-- recipe -->
+                    <button type="button" class="btn recipe-close-btn">
+                        <i class="fas fa-times"></i>
+                    </button>
+                    <!-- meal content -->
+                    <div class="meal-details-content">
+                        <!-- <h2 class="recipe-title">Meals Name Here</h2>
+                        <p class="recipe-category">Category Name</p>
+                        <div class="recipe-instruct">
+                            <h3>Instructions</h3>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur
+                                adipisicing elit. Obcaecati repellendus
+                                reiciendis nisi eaque assumenda possimus,
+                                architecto error dignissimos velit itaque fugit
+                                dolor ex pariatur aperiam quisquam qui quos
+                                maxime magnam reprehenderit? Eaque eveniet eius
+                                quia pariatur beatae ad. Fugit aspernatur
+                                ducimus commodi eligendi ullam itaque veritatis
+                                expedita asperiores sapiente cum.
+                            </p>
+                        </div>
+                        <div class="recipe-meal-img">
+                            <img src="food.jpg" alt="" />
+                        </div>
+                        <div class="recipe-link">
+                            <a href="#" target="_blank">Watch Video</a>
+                        </div> -->
+                    </div>
+                </div>
+                <div class="overlay"></div>
+            </div>
+        </div>
+        <script src="./script.js"></script>
+    </body>
+</html>
