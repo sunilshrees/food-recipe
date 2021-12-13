@@ -40,6 +40,10 @@ body {
     font-size: 2rem;
     margin-bottom: 1rem;
 }
+.search_title {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
 
 .container {
     min-height: 100vh;

@@ -4,6 +4,7 @@ const mealDetailsContent = document.querySelector('.meal-details-content');
 const recipeCloseBtn = document.querySelector('.recipe-close-btn');
 const searchInput = document.getElementById('search-input');
 const overlay = document.querySelector('.overlay');
+const searchText = document.querySelector('.search_title');
 
 //get meal list that matches with the ingredients
 
@@ -30,6 +31,7 @@ const displayMeal = (data) => {
         html += `Sorry, we didn't find any meal for your ingredient`;
         mealList.classList.add('notFound');
     }
+    searchText.textContent = 'Your Search results are:';
     mealList.innerHTML = html;
 };
 
@@ -53,6 +55,7 @@ const displayRecipe = (meal) => {
                             <a href="${meal.strYoutube}" target="_blank">Watch Video</a>
                         </div>
     `;
+
     mealDetailsContent.innerHTML = html;
     mealDetailsContent.parentElement.classList.add('showRecipe');
     overlay.classList.add('show');
